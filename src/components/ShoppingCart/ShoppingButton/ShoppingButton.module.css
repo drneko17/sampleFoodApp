@@ -1,0 +1,47 @@
+.shoppingButtonContainer {
+  display: flex;
+  align-items: center;
+  background-color: #22333b;
+  height: 60%;
+  justify-content: center;
+  width: 180px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.shoppingButtonCount {
+  background-color: #538196;
+  width: 35px;
+  height: 25px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.shoppingButtonLabel,
+.shoppingButtonCount {
+  font-weight: 700;
+  margin: 5%;
+}
+
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

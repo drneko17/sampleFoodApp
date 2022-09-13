@@ -1,0 +1,36 @@
+.navBar {
+  position: fixed;
+  height: 65px;
+  width: 100%;
+  display: flex;
+  background-color: #0a0908;
+  margin-top: -130px;
+}
+
+.navName {
+  margin: 0;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.leftSide {
+  margin-left: 10%;
+  align-items: center;
+  justify-content: start;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.rightSide {
+  color: white;
+  flex-direction: row-reverse;
+  margin-right: 10%;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.leftSide,
+.rightSide {
+  display: flex;
+  width: 50%;
+}

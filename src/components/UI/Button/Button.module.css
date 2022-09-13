@@ -1,0 +1,23 @@
+.myButton {
+  border: none;
+  width: 8em;
+  height: 50%;
+  background-color: #22333b;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.myButton:hover {
+  background-color: white;
+  color: #22333b;
+  border: 1px solid #22333b;
+  cursor: pointer;
+}
+
+.myButton:active {
+  margin-top: 2px;
+}
