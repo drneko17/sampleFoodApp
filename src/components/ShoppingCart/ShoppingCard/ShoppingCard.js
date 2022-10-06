@@ -89,7 +89,7 @@ const ShoppingCard = (props) => {
   const didSubmitModalContent = (
     <>
       <p>Successfully sent the order!</p>
-      <button>Close</button>
+      {/* <button>Close</button> */}
     </>
   );
 
