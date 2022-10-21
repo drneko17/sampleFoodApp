@@ -37,7 +37,7 @@ const ShoppingCard = (props) => {
   const submitOrderHandler = async (userData) => {
     setIsSubmitting(true);
     await fetch(
-      "https://reactguideudemy-default-rtdb.europe-west1.firebasedatabase.app/orders.json",
+      "https://samplefoodorderapp-default-rtdb.europe-west1.firebasedatabase.app/orders.json",
       {
         method: "POST",
         body: JSON.stringify({
